@@ -1,4 +1,4 @@
-package httptoolkit;
+package com.xulingjue.httptoolkit;
 
 import org.apache.commons.httpclient.Header;
 import org.apache.commons.httpclient.HttpClient;

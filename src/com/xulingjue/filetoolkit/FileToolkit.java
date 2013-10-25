@@ -10,7 +10,7 @@
  * 
  * @author lj.xu 2013-10-24
  */
-package filetoolkit;
+package com.xulingjue.filetoolkit;
 
 import java.io.BufferedReader;
 import java.io.File;
