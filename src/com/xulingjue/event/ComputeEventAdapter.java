@@ -5,7 +5,7 @@ import java.util.Vector;
 
 public class ComputeEventAdapter {
 	private Vector repostory = new Vector();
-	private ComputeEventListenerInterface cei ;
+	private ComputeEventListener cei ;
 	public void addComputeListener(ComputeEventListener cel){
 		repostory.add(cel);
 	}
