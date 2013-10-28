@@ -207,8 +207,7 @@ public class FileToolkit {
 	 * @return
 	 */
 	private String getUserInput() {
-		InputStreamReader is = new InputStreamReader(System.in);
-		BufferedReader br = new BufferedReader(is);
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String rootDir = null;
 		try {
 			rootDir = br.readLine().trim();
