@@ -31,8 +31,16 @@ public class JsoupTest {
 		}
 
 		public void test_basics() {
-			t("<img src='xxx'/>>dd<>", "<img />");
+			t("dd", "dd");
 		}
 
+		public void test_basics2() {
+			t("dc", "ddc");
+		}
+		
+		public void test_basics3() {
+			t("dd3", "dd3");
+		}
+		
 	}
 }
